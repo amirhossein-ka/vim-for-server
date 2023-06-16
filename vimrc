@@ -44,8 +44,8 @@ set tm=500
 
 
 " show location
-set cursorcolumn
-set cursorline
+"set cursorcolumn
+"set cursorline
 
 
 " movement
@@ -53,7 +53,7 @@ set scrolloff=7                 " keep 3 lines when scrolling
 
 
 " show
-set ruler                       " show the current row and column
+"set ruler                       " show the current row and column
 set number                      " show line numbers
 set nowrap
 set showcmd                     " display incomplete commands
@@ -132,7 +132,7 @@ endif
 
 " theme
 set background=dark
-colorscheme desert
+colorscheme habamax
 
 " set mark column color
 hi! link SignColumn   LineNr
