@@ -1,6 +1,6 @@
 " leader
-let mapleader = ','
-let g:mapleader = ','
+let mapleader = ' '
+let g:mapleader = ' '
 
 " syntax
 syntax on
@@ -58,7 +58,7 @@ set smartcase                   " no ignorecase if Uppercase char present
 
 
 " tab
-set expandtab                   " expand tabs to spaces
+" set expandtab                   " expand tabs to spaces
 set smarttab
 set shiftround
 
@@ -207,6 +207,13 @@ fun! <SID>StripTrailingWhitespaces()
 endfun
 
 " ============================ key map ============================
+
+inoremap "  ""<Left>
+inoremap `  ``<Left>
+inoremap '  ''<Left>
+inoremap (  ()<Left>
+inoremap [  []<Left>
+inoremap {  {}<Left>
 
 nnoremap k gk
 nnoremap gk k
