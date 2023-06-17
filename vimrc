@@ -127,6 +127,8 @@ au InsertEnter * hi statusline guifg=black guibg=#d7afff ctermfg=black ctermbg=m
 au InsertLeave * hi statusline guifg=black guibg=#8fbfdc ctermfg=black ctermbg=cyan
 hi statusline guifg=black guibg=#8fbfdc ctermfg=black ctermbg=cyan
 
+highlight! Normal cterm=NONE ctermbg=NONE guibg=NONE
+
 " Status line
 " default: set statusline=%f\ %h%w%m%r\ %=%(%l,%c%V\ %=\ %P%)
 
